@@ -1,0 +1,20 @@
+{
+  "name": "2-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "sonar-scanner": "node_modules/sonar-scanner/bin/sonar-scanner"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^29.0.0",
+    "jest": "^29.0.2"
+  },
+  "devDependencies": {
+    "sonar-scanner": "^3.1.0"
+  }
+}
